@@ -1,0 +1,7 @@
+name=Better Safehouse
+id=BetterSafehouse
+author=Refugio Z
+modversion=1.1
+versionMin=42.13.0
+description=Build 42 MP mod: optional enhanced safehouse invites (allow inviting players who already own/are members of another safehouse) + optional safehouse area viewer (blue overlay). Includes sandbox options.
+poster=poster.png

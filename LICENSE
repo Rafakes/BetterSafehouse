@@ -1,0 +1,26 @@
+Copyright (c) 2026 Rafa (GitHub: Rafakes)
+Todos os direitos reservados. / All rights reserved.
+
+Este repositorio contem o codigo-fonte, scripts, textos, configuracoes e
+recursos do mod "Better Safehouse" para Project Zomboid, de autoria de Rafa (Rafakes).
+
+PERMITIDO
+- Baixar, inspecionar e usar o mod para jogar, inclusive em servidores.
+- Citar trechos do codigo com atribuicao ao autor e link para este repositorio.
+
+NAO PERMITIDO sem autorizacao escrita do autor
+- Republicar o mod, no todo ou em parte, na Steam Workshop ou em qualquer
+  outra plataforma de distribuicao.
+- Remover ou alterar os creditos de autoria.
+- Uso comercial.
+
+ASSETS DE TERCEIROS
+Modelos, texturas e outros recursos de terceiros eventualmente incluidos
+permanecem sob as licencas de seus autores originais, listadas em CREDITS.md
+quando presente. Essas licencas prevalecem sobre este arquivo no que diz
+respeito a tais recursos.
+
+AUTORIA
+Os commits deste repositorio sao assinados com a chave SSH da conta GitHub
+Rafakes e exibem o selo "Verified", o que comprova criptograficamente a
+autoria e a data de publicacao.

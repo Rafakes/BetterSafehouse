@@ -1,0 +1,13 @@
+module BetterSafehouse
+{
+    imports
+    {
+        Base,
+    }
+    item customsafehouse
+    {
+        ItemType = base:normal,
+        Weight = 0.2,
+        Icon = BS_SafehouseDeed,
+    }
+}

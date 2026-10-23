@@ -1,0 +1,235 @@
+VERSION = 1,
+
+option BetterSafehouse.EnableSafehouseViewer
+{
+    type = boolean,
+    default = true,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_EnableSafehouseViewer,
+}
+
+option BetterSafehouse.EnhancedInvites
+{
+    type = boolean,
+    default = true,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_EnhancedInvites,
+}
+
+option BetterSafehouse.MaxJoinedSafehouses
+{
+    type = integer,
+    default = 0,
+    min = 0,
+    max = 20,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_MaxJoinedSafehouses,
+}
+
+option BetterSafehouse.SingleRespawnSafehouseEnabled
+{
+    type = boolean,
+    default = true,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_SingleRespawnSafehouseEnabled,
+}
+
+option BetterSafehouse.AdminsFreeAddToSafehouse
+{
+    type = boolean,
+    default = true,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_AdminsFreeAddToSafehouse,
+}
+
+option BetterSafehouse.AdminsCanReleaseAnySafehouse
+{
+    type = boolean,
+    default = false,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_AdminsCanReleaseAnySafehouse,
+}
+
+option BetterSafehouse.CustomClaimEnabled
+{
+    type = boolean,
+    default = false,
+    page = BetterSafehouse_Custom,
+    translation = BetterSafehouse_CustomClaimEnabled,
+}
+
+
+option BetterSafehouse.CustomClaimItemCustomSafehouse
+{
+    type = boolean,
+    default = false,
+    page = BetterSafehouse_Custom,
+    translation = BetterSafehouse_CustomClaimItemCustomSafehouse,
+}
+
+
+option BetterSafehouse.CustomClaimFreeAnywhere
+{
+    type = enum,
+    numValues = 6,
+    default = 1,
+    page = BetterSafehouse_Custom,
+    translation = BetterSafehouse_CustomClaimFreeAnywhere,
+    valueTranslation = BetterSafehouse_CustomClaimFreeAnywhereValue,
+}
+
+
+option BetterSafehouse.CustomSafehouseSize
+{
+    type = integer,
+    default = 31,
+    min = 3,
+    max = 200,
+    page = BetterSafehouse_Custom,
+    translation = BetterSafehouse_CustomSafehouseSize,
+}
+
+
+option BetterSafehouse.CustomClaimRestrictLocations
+{
+    type = boolean,
+    default = false,
+    page = BetterSafehouse_Custom,
+    translation = BetterSafehouse_CustomClaimRestrictLocations,
+}
+
+option BetterSafehouse.CustomClaimRestrictDistance
+{
+    type = integer,
+    default = 10,
+    min = 0,
+    max = 200,
+    page = BetterSafehouse_Custom,
+    translation = BetterSafehouse_CustomClaimRestrictDistance,
+}
+
+option BetterSafehouse.PhunZones2NoSafehouseBlock
+{
+    type = boolean,
+    default = true,
+    page = BetterSafehouse_PhunZones2,
+    translation = BetterSafehouse_PhunZones2NoSafehouseBlock,
+}
+
+option BetterSafehouse.VanillaSafehouseEnabled
+{
+    type = boolean,
+    default = true,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_VanillaSafehouseEnabled,
+}
+
+option BetterSafehouse.VanillaSafehouseAreaLimit
+{
+    type = integer,
+    default = 0,
+    min = 0,
+    max = 10000,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_VanillaSafehouseAreaLimit,
+}
+
+option BetterSafehouse.VanillaSafehouseAreaMinimum
+{
+    type = integer,
+    default = 0,
+    min = 0,
+    max = 10000,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_VanillaSafehouseAreaMinimum,
+}
+
+option BetterSafehouse.VanillaSafehouseClaimCooldownMinutes
+{
+    type = integer,
+    default = 0,
+    min = 0,
+    max = 43200,
+    page = BetterSafehouse,
+    translation = BetterSafehouse_VanillaSafehouseClaimCooldown,
+}
+
+option BetterSafehouse.ExpansionEnabled
+{
+    type = boolean,
+    default = true,
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionEnabled,
+}
+
+option BetterSafehouse.ExpansionAllowedRoleNames
+{
+    type = string,
+    default = "Apoiador",
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionAllowedRoleNames,
+}
+
+option BetterSafehouse.ExpansionRoleStepTiles
+{
+    type = integer,
+    default = 5,
+    min = 1,
+    max = 50,
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionRoleStepTiles,
+}
+
+option BetterSafehouse.ExpansionRoleMaxExtraTilesFromOriginal
+{
+    type = integer,
+    default = 600,
+    min = 0,
+    max = 20000,
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionRoleMaxExtraTilesFromOriginal,
+}
+
+option BetterSafehouse.ExpansionMaxTotalTiles
+{
+    type = integer,
+    default = 0,
+    min = 0,
+    max = 100000,
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionMaxTotalTiles,
+}
+
+option BetterSafehouse.ExpansionUserBorderExpansionEnabled
+{
+    type = boolean,
+    default = false,
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionUserBorderExpansionEnabled,
+}
+
+option BetterSafehouse.ExpansionUserMaxBorderTilesFromOriginal
+{
+    type = integer,
+    default = 1,
+    min = 0,
+    max = 200,
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionUserMaxBorderTilesFromOriginal,
+}
+
+option BetterSafehouse.ExpansionBlockRoadTiles
+{
+    type = boolean,
+    default = false,
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionBlockRoadTiles,
+}
+
+option BetterSafehouse.ExpansionBlockedRoadTileNames
+{
+    type = string,
+    default = "blends_street_01_85,blends_street_01_53,blends_street_01_54,blends_street_01_55,blends_street_01_56,blends_street_01_57,blends_street_01_58,blends_street_01_59,blends_natural_01_5,blends_natural_01_6",
+    page = BetterSafehouse_Expansion,
+    translation = BetterSafehouse_ExpansionBlockedRoadTileNames,
+}

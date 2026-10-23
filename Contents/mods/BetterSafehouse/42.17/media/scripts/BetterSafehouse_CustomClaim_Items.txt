@@ -1,0 +1,47 @@
+module BetterSafehouse
+{
+    item Claim10x10
+    {
+        ItemType = base:normal,
+        DisplayCategory = Tools,
+        Weight = 0.2,
+        DisplayName = Safehouse Claim 10x10,
+        Icon = BS_SafehouseDeed,
+    }
+
+    item Claim15x15
+    {
+        ItemType = base:normal,
+        DisplayCategory = Tools,
+        Weight = 0.2,
+        DisplayName = Safehouse Claim 15x15,
+        Icon = BS_SafehouseDeed,
+    }
+
+    item Claim30x30
+    {
+        ItemType = base:normal,
+        DisplayCategory = Tools,
+        Weight = 0.2,
+        DisplayName = Safehouse Claim 30x30,
+        Icon = BS_SafehouseDeed,
+    }
+
+    item Claim60x60
+    {
+        ItemType = base:normal,
+        DisplayCategory = Tools,
+        Weight = 0.2,
+        DisplayName = Safehouse Claim 60x60,
+        Icon = BS_SafehouseDeed,
+    }
+
+    item customsafehouse
+    {
+        ItemType = base:normal,
+        DisplayCategory = Tools,
+        Weight = 0.2,
+        DisplayName = Custom Safehouse Claim,
+        Icon = BS_SafehouseDeed,
+    }
+}
